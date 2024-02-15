@@ -1,0 +1,22 @@
+{
+  "parameters":
+  {
+    "local_server": "True",
+    "DB_host": "localhost",
+    "DB_name": "flask_affordable",
+    "DB_user": "root",
+    "DB_password": "",
+    "Secret_Key": "53508fce1f4a4e2222153ff3770a3fa1",
+    "JWT_SECRET_KEY": "53508fce1f4a4e2222153ff3778989JkjlkjBkaye",
+    "local_URI": "mysql+pymysql://root:@localhost/flask_affordable",
+    "OAUTH2_CLIENT_ID":"182857911986-b43f4a2bi04282c4vb2uum4ajkes4s8h.apps.googleusercontent.com",
+    "OAUTH2_CLIENT_SECRET":"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",
+    "OAUTH2_META_URL": "https://accounts.google.com/.well-known/openid-configuration",
+    "Birthday_scope": "https://www.googleapis.com/auth/user.birthday.read",
+    "gender_scope": "https://www.googleapis.com/auth/user.gender.read",
+    "phonenumbers_scope": "https://www.googleapis.com/auth/user.phonenumbers.read",
+    "userinfo_email_scope": "https://www.googleapis.com/auth/userinfo.email",
+    "userinfo_profile_scope": "https://www.googleapis.com/auth/userinfo.profile"
+
+  }
+}

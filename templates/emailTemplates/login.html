@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Successful</title>
+</head>
+<body>
+    <div style="font-family: Arial, sans-serif; margin: 0 auto; max-width: 600px; padding: 20px;">
+        <h2 style="color: #333;">{{ data.App_name }} Logged In Successful</h2>
+        <p>Hello {{ data.user_name }},</p>
+        <p>We are pleased to inform you that you have successfully logged in to your account.</p>
+        <p>If you did not initiate this login or suspect any unauthorized activity, please contact our support team immediately.</p>
+        <p>Thank you for choosing our service.</p>
+        <p>Site is logged in on this device {{data.device_name}}</p>
+        <p>IP address of {{data.device_name}} is {{data.ip_address}}</p>
+        <p>Device location is {{data.location}}</p>
+        <p>Best regards,<br><a href="http://127.0.0.1:200/" target="_blank" style="color:#000; text-decoration:none;">{{ data.App_name }}</a></p>
+    </div>
+</body>
+</html>
