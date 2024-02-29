@@ -24,8 +24,8 @@ mail.init_app(app)
 
 oauth.register(
     "Affordable",
-    client_id="182857911986-b43f4a2bi04282c4vb2uum4ajkes4s8h.apps.googleusercontent.com",
-    client_secret="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",
+    client_id="##################",
+    client_secret="##################",
     server_metadata_url="https://accounts.google.com/.well-known/openid-configuration",
     client_kwargs={'scope': f'openid profile email {parameters["Birthday_scope"]} {parameters["gender_scope"]} {parameters["phonenumbers_scope"]} {parameters["userinfo_email_scope"]} {parameters["userinfo_profile_scope"]}'}
 )
